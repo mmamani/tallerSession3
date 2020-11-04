@@ -16,8 +16,8 @@ public class whendoTest {
     @Test
     public void verifyAddTask() throws MalformedURLException{
         mainTaskScreen.addTaskButton.click();
-        createTask.titleTextBox.type("title 5");
-        createTask.noteTextBox.type("note 5");
+        createTask.titleTextBox.type("NOTA1");
+        createTask.noteTextBox.type("NOTE1");
         createTask.saveButton.click();
 
     }
